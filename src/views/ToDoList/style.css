@@ -1,0 +1,18 @@
+.taskInput{
+    margin: 20px;
+    height: 50;
+    width: 300;
+
+} 
+.taskButton{
+    
+    height: 50;
+    width: 100;
+    background-color: blue;
+    color: antiquewhite;
+    border: 0;
+    border: radius 15px; ;
+} 
+.taskButton:hover{
+    background-color: brown;
+}
