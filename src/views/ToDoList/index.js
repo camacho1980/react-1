@@ -1,5 +1,5 @@
-// importar el useState
-import {useState} from 'react';
+// importar el useState - agrego otro hook useEffect 
+import {useState, useEffect} from 'react';
 // importar el InputNewTasck
 import InputNewTask from './components/InputNewTask';
 // importar Tasks
@@ -13,14 +13,24 @@ function ToDoList(){
     const [currTask, setCurrTask] = useState("")
     // segundo estado todas las tareas lista -arreglo de string
     const [taskList, setTaskList] = useState([])
-
     // console.log(currTask) PARA QUE LO RENDERICE VER EN CONSOLA
+
+    // useEffect (cada vez que hay un cambio en la lista de tareas peticion de datos a appis)
+    // se consologuea efecto porque está en el arreglo de dependencias [variable taskList]
+
+    useEffect(
+        function(){
+            console.log("efecto")
+    },[taskList])
+    
+
 
     // FUNCION handleChange
     const handleChange = function(event){
     
         setCurrTask(event.target.value)//cada vez que el usuario escribe, esta guardando en el estado local. 
     }
+
     
     // FUNCION handleClick - que sea un arreglo que se vallan acumulando las distintas tareas
     const handleClick = function (){

@@ -4,6 +4,8 @@ import Landing from './views/Landing/index.js';
 import Counter from './views/Counter/index.js';
 // importar ToDoList
 import ToDoList from './views/ToDoList/index.js';
+// importar StardWars
+import StarWarsCharacters from './views/StarWarsCharacters/index.js';
 
 import logo from './logo.svg';
 import './App.css';
@@ -24,6 +26,8 @@ function App() {
         <Counter/>
         {/* renderizar el componente ToDoList  */}
         <ToDoList/>
+        {/* renderizar el componente StardWarsCharacter */}
+        <StarWarsCharacters/>
 
       </header>
     </div>

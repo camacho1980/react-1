@@ -13,6 +13,7 @@ function Tasks(props){
                             <li key={index}>
                                  {task}
                                  {/* funcion sin ejecutar - llamar al indice actual */}
+                                 {/* BOTON PARA BORRAR LA TAREA CREADA */}
                                  <button onClick={()=>props.handleDelete(index)}> Borrar </button> 
                             </li>
                         )
