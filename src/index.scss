@@ -1,0 +1,28 @@
+
+// PARA REMPLAZAR COLOR DEL BOTON DE BOOTSTRAP
+
+$navbar-light-hover-color: blue;
+
+
+//importamos bootstrap en mi sass
+@import 'bootstrap/scss/bootstrap.scss';
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+  /* borra los puntos de las lista desordenada */
+  ul{
+    list-style: none;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }

@@ -1,0 +1,44 @@
+.gridItem{
+    background-color: burlywood;
+    margin: none;
+}
+.gridContainer{
+    background-color: blue;
+}
+
+.submitForm{
+    background-color: #E0752F;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+.positionConteiner {
+    margin: 10% auto;
+    width: 50%;
+    height: 200px;
+    border: darkorange solid 3px;
+  }
+  
+  .positionItem {
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    border: darkorchid solid 2px;
+    background: darkseagreen;
+    position: relative;
+    top: 75px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  
+  .positionFixed {
+    position: fixed;
+    top: 20px;
+    bottom: 0px;
+    left: 850px;
+    right: 0px;
+  }

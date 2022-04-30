@@ -6,6 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
+a{
+  text-decoration: none;
+
+}
+
+nav>a{
+  margin: 10px;
+  background-color: rgb(24, 194, 58);
+  padding: 5px;
+  border-radius: 5px;
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,14 +26,14 @@
 }
 
 .App-header {
-  background-color: #6c1fdf;
+  background-color: #660ded;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(58, 24, 208);
 }
 
 .App-link {
