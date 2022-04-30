@@ -2,13 +2,9 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 import Landing from './views/Home/index.js';
-
 import About from './views/About/index.js';
-
 import Products from './views/Products/index.js';
-
 import Services from './views/Services/index.js';
-
 import Contact from './views/Contact/index.js';
 
 import logo from './logo.svg';
@@ -18,8 +14,10 @@ import './App.css';
 function App() {
  
   return (
+    
   
     <BrowserRouter>
+    
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +33,7 @@ function App() {
             </div>
           </div>
       </div>
-</nav>
+    </nav>
     <div className="App">
         <Routes>
             <Route path="/" element={<Landing/>}/>
