@@ -1,23 +1,16 @@
+import Section1 from "./Section1";
+import Navbar from "./Navbar";
+import "./style.css";
 
-
-function Landing(props){
+function Landing(){
     
     return(
         
-        <section>   
+        <section className="fondoImagen">   
            
-            <div>
-
-                <h1>Sed ut perspiciatis unde omnis iste natus</h1>
-
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+            <Navbar/>   
+            <Section1/>
             
-            </div>
-
-            <div>
-            <button type="submit" class="btn btn-primary mb-3 submitForm">Read more</button>
-            </div>
-
         </section>
     )
 }

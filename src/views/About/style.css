@@ -1,1 +1,56 @@
+.section2{
+    height: 600px;
+    
+}
 
+.fila{
+    height: 108px;
+    
+}
+.bordeVertical{
+    height:384px;
+    /* border-left: 32px solid #E0752F; */
+    width: 2%;
+    background-color: #E0752F;
+    margin-top: 10%;
+    
+    
+}
+.contenedorSection2{
+    margin-top: 12%;
+    margin-left: 16%;  
+    width: 750px;
+}
+.tituloNegro{
+    text-align: left;
+    
+    font: normal normal 600 39px/45px 'Poppins';
+    
+    letter-spacing: 0.55px;
+    color: #343434;
+    margin-bottom: 8%;
+    
+    
+}
+.tituloNaranja{
+    color:#E0752F ;
+}
+
+p{
+    width: 100%;
+    font-size: 16px;
+    /* margin-top: 30px; */
+}
+.colContenedor{
+    padding-left: 200px;
+    padding-top: 2%;
+}
+
+@media(max-width:920){
+    .contenedorSection2{
+        margin-top: 0%;
+        margin-left: 0%;  
+        width: 100%;
+        
+    }
+}
