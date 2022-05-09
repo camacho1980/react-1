@@ -36,8 +36,6 @@
 
 @media (max-width:1154px) {
   .fotoCasa{
-      /* width:500 px; */
-      height: 500px;
-      left: 10%;
+      display: none;
   }
 }
