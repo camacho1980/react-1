@@ -20,6 +20,9 @@ function App() {
       <Landing/>
       <About/>
       <Products/>
+      <Services/>
+      <Contact/>
+      
     </section>
   
   );

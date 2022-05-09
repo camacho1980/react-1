@@ -25,13 +25,23 @@
   left: 20%;
  
 }
-.hola{
+.rectangulo{
   position: absolute;
-  width: 200px;
-  height: 200px;
-  border: 2px solid red;
-  left: 65%;
+  width: 471px;
+  height: 304px;
+  background-color: #E0752F;
+  left: 56%;
   margin-top: 500px;
+  top: 210%;
+  
+
+}
+.textoRectangulo{
+  text-align: justify;
+  padding: 50px;
+  color: #FFFFFF;
+
+
 }
 
 @media (max-width:1154px) {
