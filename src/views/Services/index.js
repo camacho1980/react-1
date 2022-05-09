@@ -5,8 +5,11 @@ import "./style.css"
 function Services(){
 
     return(
-        <section>
-            <h1>Services</h1>
+    <section className='section4'>
+        
+        
+      <img src='./assets/img/corredor.png'  className='fotoCorredor'></img>
+
         <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">

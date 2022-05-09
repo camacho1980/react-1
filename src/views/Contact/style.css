@@ -1,4 +1,78 @@
+.section5{
+    height:768px;
+    width: 100% ;
+    display: flex;
+    
+  }
+
+  .color1{
+    height:768px;
+    width: 70%;
+    background-color: #F2F4F1;
+   
+  }
+  .color2{
+    width: 30%;
+    height:768px;
+    background-color: #DCE1DA;
+  }
+
+
+  .fotoGlobos{
+    width: 594px;
+    height: 400px;
+    position:absolute;
+    left:45%; 
+    margin-top: 200px;
+
+
+}
+
 .submitForm{
     background-color: #E0752F;
     border: none;
+    width: 144px;
+    height: 48px;
+    /* text-align: center; */
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    opacity: 1;
+    border-radius: 25px;
+    margin: 30px 10px 0px -10px;
+
 }
+
+@media (max-width:1154px) {
+    .fotoGlobos{
+        display: none;
+    }
+  }
+
+.contact{
+    position: relative;
+    width: 471px;
+    height: 345px;
+    left: 5%;
+    margin-top: 140px; 
+}
+.titulo{
+    font-family: Poppins;
+    color: #E0752F;
+    font-size: 39px;
+    text-align: left;
+}
+.negro{
+    color: #343434;
+}
+/* 
+.rectangulo{
+    position: relative;
+    background-color: #343434;
+    width: 1366px;
+    height: 96px;
+    display:flex;
+
+    
+} */
+    
