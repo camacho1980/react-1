@@ -6,7 +6,7 @@ import About from './views/About/index.js';
 import Products from './views/Products/index.js';
 import Services from './views/Services/index.js';
 import Contact from './views/Contact/index.js';
-import Footer from './views/footer/footer.js';
+import Footer from './views/Footer/footer.js';
 
 
 
@@ -23,7 +23,8 @@ function App() {
       <Products/>
       <Services/>
       <Contact/>
-      {/* <Footer/> */}
+      <Footer/>
+      
       
     </section>
   

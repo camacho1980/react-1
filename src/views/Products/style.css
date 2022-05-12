@@ -17,33 +17,41 @@
   
 }
 .fotoCasa{
-  width: 920px;
+  width: 966px;
   height: 552px;
-  position: absolute;
-  /* top: 210%; */
+  position: absolute; 
+  top: 230%;
   margin-top: 8%;
-  left: 20%;
+  left: 9.5%;
+  background-size: cover;
+
  
 }
+
 .rectangulo{
   position: absolute;
+  display: flex;
   width: 471px;
   height: 304px;
   background-color: #E0752F;
-  left: 56%;
-  margin-top: 500px;
-  top: 210%;
+  left: 49%;
+  top: 288%;
   
 
 }
-.textoRectangulo{
-  display: flex;
+.carousel-item {
+  text-align-last: left;
   padding: 50px;
-  text-align: right;
   color: #FFFFFF;
 
+}
+.textoDos{
+  text-align-last: left;
+  padding: 50px;
+  color: #FFFFFF;
 
 }
+
 
 @media (max-width:1154px) {
   .fotoCasa{

@@ -14,12 +14,7 @@
     
     
     
-    
-}
-.contenedorSection2{
-    margin-top: 12%;
-    margin-left: 16%;  
-    width: 750px;
+  
 }
 .tituloNegro{
     text-align: left;
@@ -103,6 +98,13 @@ p{
     }
     
 } */
+  
+
+.contenedorSection2{
+    margin-top: 12%;
+    margin-left: 16%;  
+    width: 750px;
+}
 
 .padre{
     display: flex;

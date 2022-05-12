@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import axios from 'axios';
 import './style.css'
-import Footer from '../footer/footer';
 
 
 function Contact(){
@@ -36,12 +35,11 @@ function Contact(){
     return(
         <section className='section5'>
           
-                <div className='color1'>
+            <div className='color1'>
 
-            <div className='contact'>
-            <div className='titulo'>
+                <div className='contact'>
+                <div className='titulo'>
                 <h1>< span className='negro'>Get in touch </span> <br/> We are hiring!</h1>
-                
             </div>
                 <form onSubmit={handleSubmit}>
                 <div class="mb-3">
@@ -65,18 +63,22 @@ function Contact(){
                     </div>
 
                     <button type="submit" class="btn btn-primary mb-3 submitForm">Send</button>
+            
                 </form>
+                 
             </div>
             </div>
-            <img src='./assets/img/globos.png'  className='fotoGlobos'></img>
+            <div  className='color2'>
+            <div>
+                <img className="fotoGlobos" src="./assets/img/globos.png"></img>
+            </div>
 
-            <div  className='color2'></div>  
+            </div>
 
-            {/* <Footer/> */}
         </section>
+
         
     )
 }
            
-
 export default  Contact;
