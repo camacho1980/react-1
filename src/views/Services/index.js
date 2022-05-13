@@ -6,11 +6,9 @@ function Services(){
 
     return(
     <section className='section4'>
-        
-        
-      <img src='./assets/img/corredor.png'  className='fotoCorredor'></img>
 
-        <div class="accordion" id="accordionExample">
+          <div className="col1 ">
+          <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -48,6 +46,15 @@ function Services(){
           </div>
         </div>
       </div>
+          </div>
+          <div className="col2">
+          <img src='./assets/img/corredor.png'  className='fotoCorredor'></img>
+          </div>
+
+     
+
+       
+      {/* </div> */}
       </section>
 
     )

@@ -19,12 +19,11 @@
 
 
   .fotoGlobos{
-    width: 594px;
-    height: 400px;
-    position:absolute;
-    left:45%; 
-    margin-top: 200px;
-
+    width: 135%;
+    height: 50%;
+    position: relative;
+    right: 70%;
+    top: 25%;
 
 }
 
@@ -43,36 +42,42 @@
 
 }
 
-@media (max-width:1154px) {
-    .fotoGlobos{
-        display: none;
-    }
-  }
 
-.contact{
-    position: relative;
+/* .contact{
+
     width: 471px;
     height: 345px;
     left: 5%;
     margin-top: 140px; 
-}
-.titulo{
+  } */
+  .contact{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-top: 10%;
+    
+  }
+  .form{
+    width: 80%;
+  }
+  .titulo{
     font-family: Poppins;
     color: #E0752F;
     font-size: 39px;
     text-align: left;
 }
 .negro{
-    color: #343434;
+  color: #343434;
 }
-/* 
-.rectangulo{
-    position: relative;
-    background-color: #343434;
-    width: 1366px;
-    height: 96px;
-    display:flex;
+@media (max-width:1154px) {
+    .color1{
+      width: 100%;
+    }
+  }
 
-    
-} */
+  
+  
+
     
