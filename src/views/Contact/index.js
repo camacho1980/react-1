@@ -36,7 +36,7 @@ function Contact(){
     return(
         <section className='section5'>
           
-                <div className='color1'>
+                <div className='columna1'>
 
             <div className='contact'>
             <div className='titulo'>
@@ -69,12 +69,12 @@ function Contact(){
             </div>
             </div>
 
-            <div  className='color2'>
+            <div  className='columna2'>
             <img src='./assets/img/globos.png'  className='fotoGlobos'></img>
 
                 </div>  
 
-            {/* <Footer/> */}
+            
         </section>
         
     )

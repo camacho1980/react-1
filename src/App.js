@@ -20,10 +20,10 @@ function App() {
 
       <Landing/>
       <About/>
-      {/* <Products/> */}
+      <Products/>
       <Services/>
       <Contact/>
-      {/* <Footer/> */}
+      <Footer/>
       
     </section>
   

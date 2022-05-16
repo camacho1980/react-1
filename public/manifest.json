@@ -18,6 +18,11 @@
       "sizes": "512x512"
     },
     {
+  "src":"casa.png",
+  "type": "image/png",
+  "sizes":"966x552" 
+    },
+    {
       "src" : "fondo.png",
       "type" : "image/png",
       "sizes": "1366x768"
