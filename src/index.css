@@ -8,11 +8,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
 }
-/* borra los puntos de las lista desordenada */
-/* ul{
-  list-style: none;
-} */
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -7,10 +7,12 @@ $navbar-light-color:white;
 //importamos bootstrap en mi sass
 @import 'bootstrap/scss/bootstrap.scss';
 
-
+p{
+  font-family: "Roboto";  
+}
 body {
-    margin: 0;
-  
+    margin: 0px;
+    padding: 0px;
     font-family: 'Roboto',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
@@ -35,4 +37,12 @@ body {
     background-size: cover;
     width: 100%;
     
+  }
+  .color1{
+    background-image: url("../public/assets/img/casa.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 768px;
+   background-size: cover;
+   width: 100%;
   }

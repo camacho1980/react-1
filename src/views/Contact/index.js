@@ -35,13 +35,13 @@ function Contact(){
     return(
         <section className='section5'>
           
-            <div className='color1'>
+                <div className='columna1'>
 
                 <div className='contact'>
                 <div className='titulo'>
                 <h1>< span className='negro'>Get in touch </span> <br/> We are hiring!</h1>
             </div>
-                <form onSubmit={handleSubmit}>
+                <form className='form' onSubmit={handleSubmit}>
                 <div class="mb-3">
                     <label for="name" class="form-label"></label>
                     <input onChange={handleChange} type="text" class="form-control" id="name" placeholder="Name" value={userInput.name} size="15px"/>
@@ -61,20 +61,20 @@ function Contact(){
                     <label for="message" class="form-label"></label>
                     <input onChange={handleChange} type="text" class="form-control" id="message" placeholder="Message" value={userInput.message}/>
                     </div>
-
+                        
                     <button type="submit" class="btn btn-primary mb-3 submitForm">Send</button>
             
                 </form>
                  
             </div>
             </div>
-            <div  className='color2'>
-            <div>
-                <img className="fotoGlobos" src="./assets/img/globos.png"></img>
-            </div>
 
-            </div>
+            <div  className='columna2'>
+            <img src='./assets/img/globos.png'  className='fotoGlobos'></img>
 
+                </div>  
+
+            
         </section>
 
         
