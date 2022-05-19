@@ -7,9 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
 }
-html{
-  scroll-behavior: smooth;
-}
+
 /* borra los puntos de las lista desordenada */
 ul{
   list-style: none;
@@ -20,7 +18,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+p{
+  font-family: "Roboto";  
+}
 h1{
   font-family: 'Poppins';
 }
