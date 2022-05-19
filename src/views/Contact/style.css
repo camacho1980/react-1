@@ -1,5 +1,6 @@
 .section5{
-    height:70%;
+    /* height:70%; */
+    height: 768px;
 
     display: flex;
 
@@ -23,7 +24,7 @@
     height: 50%;
     position: relative;
     right: 50%;
-    top: 30%;
+    top: 20%;
 
 }
 
@@ -81,13 +82,15 @@
   .contact{
    top: 20%;
    margin-top: 30%;
+   width: auto;
   }
 }
-@media (max-width:769px) {
-  .section5{
-    height: 850px;
-  }
+/* @media (max-width:769px) {
+  .section5 {
+     height: 712px; 
 }
+  
+} */
 @media (max-width:541px) {
     .columna2{
       display: none;
@@ -105,6 +108,9 @@
   @media (max-width:415px) {
     .section5{
       height: 697px;
+    }
+    .contact{
+      width: auto;
     }
     
   }

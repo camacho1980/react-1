@@ -5,7 +5,7 @@ import './style.css'
 
 function About(){
     return(  
-        <section className='section2'>
+        <section className='section2' id='about'>
 
     <article className="padre">
       <div className="borde"></div>

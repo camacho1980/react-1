@@ -56,9 +56,9 @@
 }
 }
 @media(max-width:769px){
-    .footer{
-        margin-bottom: auto;
-    }
+    /* .footer{
+        margin-bottom: 264px;
+    } */
     }
 @media(max-width:415px){
     .footer{

@@ -1,8 +1,8 @@
 .navbarPadre{
     border-bottom: 2px solid #E0752F;
     height: 98px;
-    /* position: absolute; */
     width: 100%;
+ 
     
     
 }
@@ -11,19 +11,16 @@
     flex-grow: 2;
     color: #FFFFFF;
     
+    /* text-shadow: 2px 0 0 #000 */
 }
-/* .carrusel{
-    position: relative;
-} */
-
 
 .logo{
 top: 33px;
 left: 101px;
 width: 129px;
 height: 30px;
-
 opacity: 1;
+
 
 }
 
@@ -97,6 +94,11 @@ opacity: 1;
     opacity: 1;
     
 }
+.navbar-nav{
+    align-items: flex-end;
+    font-size: 20px;
+    
+}
 .button1{
     width: 144px;
     height: 48px;
@@ -114,5 +116,10 @@ opacity: 1;
 @media (max-width: 495px){
     .title1{
         margin-bottom: 100px;
+    }
+}
+@media (max-width: 769px){
+    .itemsNav{
+        margin: 2px;
     }
 }

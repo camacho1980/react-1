@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Button from "./Button";
 import "./style.css";
 
+
 function Landing(){
     
     return(
@@ -19,8 +20,10 @@ function Landing(){
             </div>
             <Button/>
             
-          </div>
-            
+        </div>
+        
+
+
         </section>
     )
 }

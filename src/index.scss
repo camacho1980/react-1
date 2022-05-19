@@ -7,6 +7,7 @@ $navbar-light-color:white;
 //importamos bootstrap en mi sass
 @import 'bootstrap/scss/bootstrap.scss';
 
+
 p{
   font-family: "Roboto";  
 }
@@ -38,6 +39,7 @@ body {
    width: 100%;
     
   }
+  
   .color1{
     background-image: url("../public/assets/img/casa.png");
     background-position: center center;
