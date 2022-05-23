@@ -33,7 +33,7 @@ function Contact(){
       
     // console.log(userInput) PARA VER SI SE ESTAN GUARDANDO LOS DATOS QUE VAMOS A ENVIAR AL BACK
     return(
-        <section className='section5'>
+        <section className='section5' id='contact'>
           
                 <div className='columna1'>
 

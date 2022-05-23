@@ -5,7 +5,7 @@ import "./style.css"
 function Services(){
 
     return(
-    <section className='section4'>
+    <section className='section4' id="services">
 
           <div className="col1 ">
           <div class="accordion" id="accordionExample">
