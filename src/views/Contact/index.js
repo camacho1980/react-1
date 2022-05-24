@@ -80,11 +80,8 @@ function Contact(){
             <div  className='columna2'>
             <img src='./assets/img/globos.png'  className='fotoGlobos'alt=''></img>
 
-                </div>  
-
-            
+                </div>   
         </section>
-
         
     )
 }
