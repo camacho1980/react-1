@@ -1,12 +1,10 @@
-// importar Browser router, Routes,  Route y link
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 import Landing from './views/Home/index.js';
 import About from './views/About/index.js';
 import Products from './views/Products/index.js';
 import Services from './views/Services/index.js';
 import Contact from './views/Contact/index.js';
-import Footer from './views/footer/footer.js';
+import Footer from './views/Footer/footer.js';
 
 
 
@@ -20,10 +18,10 @@ function App() {
 
       <Landing/>
       <About/>
-      {/* <Products/> */}
+      <Products/>
       <Services/>
       <Contact/>
-      {/* <Footer/> */}
+      <Footer/>
       
     </section>
   

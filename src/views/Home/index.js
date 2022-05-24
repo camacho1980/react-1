@@ -1,7 +1,8 @@
-// import Section1 from "./Section1";
+
 import Navbar from "./Navbar";
 import Button from "./Button";
 import "./style.css";
+
 
 function Landing(){
     
@@ -19,11 +20,12 @@ function Landing(){
             </div>
             <Button/>
             
-          </div>
-            
+        </div>
+        
+
+
         </section>
     )
 }
-
 
 export default Landing;

@@ -1,11 +1,9 @@
-
-
 import "./style.css"
 
 function Services(){
 
     return(
-    <section className='section4'>
+    <section className='section4' id="services">
 
           <div className="col1 ">
           <div class="accordion" id="accordionExample">
@@ -50,11 +48,6 @@ function Services(){
           <div className="col2">
           <img src='./assets/img/corredor.png'  className='fotoCorredor'></img>
           </div>
-
-     
-
-       
-      {/* </div> */}
       </section>
 
     )
