@@ -8,9 +8,13 @@ function Contact(){
 
 // crear un objeto entero con las propiedades vacias estado inicial
     const [userInput, setUserInput] = useState({name: "", email: "", phone: "", message: ""})
+    const [showAlert,setShowAlert] = useState(false)    //Esta en falso cuando el form no es enviado, y pasa a true cuando se envia correctamente, osea valida,permitiendo dar el mensaje de enviado correctamente.
+  
+    
 // captar la info de cada uno de estos y guardar en estado local
         
     const handleChange = function (event){
+        setShowAlert(false)
         const property = event.target.id
         const value = event.target.value
         setUserInput({...userInput, [property]: value}) //actualizar el estado local.
@@ -25,13 +29,16 @@ function Contact(){
             method: 'POST',
             date: userInput                     //body a enviar
         }).then( result => {
-            console.log(result)
-            setUserInput({name: "", email: "", phone: "", message: ""}) //vacia los elementos ya enviados
+            
+             setShowAlert(true)    
+             setUserInput({name: "", email: "", phone: "", message: ""}) //vacia los elementos ya enviados
         })
-            .catch( error => console.log(error))
+           
     }
-      
-    // console.log(userInput) PARA VER SI SE ESTAN GUARDANDO LOS DATOS QUE VAMOS A ENVIAR AL BACK
+      //Hago la validacion: con el length pregunto si cada campo no esta vacio, osea tiene un length.
+      //con el signo de interrogacion le digo lo contrario, osea si estan vacios. y lo paso por props al boton con disabled.
+    const buttonDisabled = !(userInput.name.length && userInput.email.length && userInput.phone.length && userInput.message.length)
+    
     return(
         <section className='section5' id='contact'>
           
@@ -44,7 +51,7 @@ function Contact(){
                 <form className='form' onSubmit={handleSubmit}>
                 <div class="mb-3">
                     <label for="name" class="form-label"></label>
-                    <input onChange={handleChange} type="text" class="form-control" id="name" placeholder="Name" value={userInput.name} size="15px"/>
+                    <input onChange={handleChange} type="text" class="form-control" id="name" placeholder="Name" value={userInput.name} />
                     </div>
                     
                     <div class="mb-3">
@@ -62,15 +69,16 @@ function Contact(){
                     <input onChange={handleChange} type="text" class="form-control" id="message" placeholder="Message" value={userInput.message}/>
                     </div>
                         
-                    <button type="submit" class="btn btn-primary mb-3 submitForm">Send</button>
-            
+                    <button type="submit" disabled={buttonDisabled} class="btn btn-primary mb-3 submitForm">Send</button>
+                    
+                    {showAlert && <div className="alert alert-success">Mensaje enviado correctamente  </div> }   
                 </form>
                  
             </div>
             </div>
 
             <div  className='columna2'>
-            <img src='./assets/img/globos.png'  className='fotoGlobos'></img>
+            <img src='./assets/img/globos.png'  className='fotoGlobos'alt=''></img>
 
                 </div>  
 
