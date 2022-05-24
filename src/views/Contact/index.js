@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import './style.css'
-import Footer from '../footer/footer';
+
 
 
 function Contact(){

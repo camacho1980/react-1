@@ -35,56 +35,8 @@
     width: 50%;
     color: white;
 }
-@media (max-width:1281px) {
-    .footer{
-        margin-bottom: 25px;
-    }
-  }
-@media(max-width:913px){
-    .footer{
-        margin-bottom: 600px;
-    }
-    }
-    @media(max-width:900px){
-        .footer{
-            margin-bottom: 0;
-        }
-        }
-@media(max-width:821px){
-.footer{
-    margin-bottom: 400px;
-}
-}
-@media(max-width:769px){
-    /* .footer{
-        margin-bottom: 264px;
-    } */
-    }
-@media(max-width:415px){
-    .footer{
-        
-        height: 226px;
-    } 
-}
-@media(max-width:541px){
-    .footer{
-        margin-bottom: 0%;
-        
-    } 
-}
 
-@media(max-width:394px){
-    .footer{
-        margin-bottom: 0%;
-        height: 180px;
-    } 
-}
-@media(max-width:391px){
-    .footer{
-        margin-bottom: 0%;
-        height: 180px;
-    } 
-}
+
 
 @media(max-width:376px){
     .footer{
