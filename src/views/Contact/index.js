@@ -25,7 +25,7 @@ function Contact(){
     const handleSubmit = function (event){
         event.preventDefault() //para que no recargue la pagina al apretar.
         axios({
-            url: 'https://jsonplaceholder.typicode.com/posts', //POST FALSO PARA ENVIAR DATA
+            url: process.env.URL_TESTING + '/contacto',
             method: 'POST',
             date: userInput                     //body a enviar
         }).then( result => {
