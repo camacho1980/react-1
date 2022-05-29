@@ -1,159 +1,166 @@
 .section5{ 
-    height: 768px;
-    display: flex;
-
-  }
-
-  .columna1{
-    height:100%;
-    width: 70%;
-    background-color: #F2F4F1;
-
-  }
-  .columna2{
-    width: 30%;
-    background-color: #DCE1DA;
-  }
-  .fotoGlobos{
-    width: 100%;
-    height: 50%;
-    position: relative;
-    right: 50%;
-    top: 20%;
+  height: 768px;
+  display: flex;
+  background-color: #DCE1DA;
 
 }
  
 
-.submitForm{
-    background-color: #E0752F;
-    border: none;
-    width: 144px;
-    height: 48px;
-    font: normal normal medium 16px/21px Roboto;
-    letter-spacing: 0.22px;
-    color: #FFFFFF;
-    opacity: 1;
-    border-radius: 25px;
-    margin: 30px 10px 0px -10px;
+.columna1{
+  height:100%;
+  width: 70%;
+  background-color: #F2F4F1;
 
 }
-
-  .contact{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
-    margin-top: 5%;
-
-  }
-  .form{
-    width: 80%;
-  }
-  .titulo{
-    font-family: Poppins;
-    color: #E0752F;
-    font-size: 39px;
-    text-align: left;
-}
-.negro{
-  color: #343434;
-}
-
- @media (max-width:913px) {
-.section5{
-  height: 578px;
+.columna2{
+  width: 30%;
+  /* background-color: #DCE1DA; */
 }
 .fotoGlobos{
-  display: none;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  right: 50%;
+  top: 20%;
+
+}
+
+
+.submitForm{
+  background-color: #E0752F;
+  border: none;
+  width: 144px;
+  height: 48px;
+  font: normal normal medium 16px/21px Roboto;
+  letter-spacing: 0.22px;
+  color: #FFFFFF;
+  opacity: 1;
+  border-radius: 25px;
+  margin: 30px 10px 0px -10px;
+
+}
+
+.contact{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  margin-top: 5%;
+
+}
+.form{
+  width: 80%;
+}
+.titulo{
+  font-family: Poppins;
+  color: #E0752F;
+  font-size: 39px;
+  text-align: left;
+}
+.negro{
+color: #343434;
+}
+
+/* @media (max-width:113px) {
+  .section5{
+  height: 578px;
+  } */
+@media (max-width:913px) {
+.section5{
+height: 578px;
+}
+.fotoGlobos{
+display: none;
 }
 }
 @media (max-width:821px) {
-
   .columna2{
-    display:none;
+    display: none;
   }
-  .contact{
-   top: 20%;
-   margin-top: 10%;
-   width: auto;
+ 
+.contact{
+
+ margin-top: 10%;
+ width: auto;
+}
+}
+@media (max-width:769px) {
+  .columna2{
+    display: none;
   }
 }
 
 @media (max-width:541px) {
-    .columna2{
-      display: none;
-    }
-    .columna1{
-      width: 100%;
-    }
-    .section5{
-      height: 80%;
-    }
-    .contact{
-      margin-top: 20%;
-    }
+  .columna2{
+    display: none;
   }
-  @media (max-width:415px) {
-    .section5{
-      height: 697px;
-    }
-    .contact{
-      width: auto;
-    }
-    
+  .columna1{
+    width: 100%;
   }
-  @media (max-width:413px) {
-    .section5{
-      height: 70%;
-    }
-    .columna1{
-      height: 600px;
-    }
-    .columna2{
-      display: none;
-    }
-    .contact{
-      margin-top: 10%;
-      width: auto;
-    }
+  .section5{
+    height: 80%;
   }
-  @media (max-width:394px) {
-     .columna1{
-      height: 100%;
-    } 
-     .section5 {
-      height: 70%;
+  .contact{
+    margin-top: 20%;
+  }
+}
+@media (max-width:415px) {
+  .section5{
+    height: 697px;
   }
   .contact{
     width: auto;
   }
-  }
-  @media (max-width:391px) {
-    .columna1{
-     height: 100%;
-   } 
-    .section5 {
-      height: 70%;
- }
- .contact{
-   width: auto;
- }
- }
-  @media (max-width:376px) {
-    .columna1 {
-      height: 508px;
-  }
-  }
-  @media (max-width:361px) {
-    .columna1{
-      height: 500px;
-    }
-    .section5 {
-      height: 501px; 
-  }
-  }
-
   
-
-
+}
+@media (max-width:413px) {
+  .section5{
+    height: 70%;
+  }
+  .columna1{
+    height: 600px;
+  }
+  .columna2{
+    display: none;
+  }
+  .contact{
+    margin-top: 10%;
+    width: auto;
+  }
+}
+@media (max-width:394px) {
+   .columna1{
+    height: 100%;
+  } 
+   .section5 {
+    height: 70%;
+}
+.contact{
+  width: auto;
+}
+}
+@media (max-width:391px) {
+  .columna1{
+   height: 100%;
+ } 
+  .section5 {
+    height: 70%;
+}
+.contact{
+ width: auto;
+}
+}
+@media (max-width:376px) {
+  .columna1 {
+    height: 508px;
+}
+}
+@media (max-width:361px) {
+  .columna1{
+    height: 500px;
+  }
+  .section5 {
+    height: 501px; 
+}
+}
