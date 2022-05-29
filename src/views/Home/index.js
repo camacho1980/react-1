@@ -18,12 +18,10 @@ function Landing(){
             <div className="parrafo1">Sed ut perspiciatis 
             unde omnis iste natus error <br/> sit voluptatem accusantium doloremque.
             </div>
-            <Button/>
+                <Button/>
             
-        </div>
+            </div>
         
-
-
         </section>
     )
 }

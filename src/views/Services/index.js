@@ -50,11 +50,6 @@ function Services(){
           <div className="col2">
           <img src='./assets/img/corredor.png'  className='fotoCorredor'></img>
           </div>
-
-     
-
-       
-      {/* </div> */}
       </section>
 
     )

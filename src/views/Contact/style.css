@@ -1,7 +1,5 @@
-.section5{
-    /* height:70%; */
+.section5{ 
     height: 768px;
-
     display: flex;
 
   }
@@ -14,7 +12,6 @@
   }
   .columna2{
     width: 30%;
-    /* height:100%; */
     background-color: #DCE1DA;
   }
   .fotoGlobos{
@@ -72,24 +69,17 @@
 }
 }
 @media (max-width:821px) {
-  .section5{
-    height: 900px;
-  }
-  .columna1{
-    height: 100%;
+
+  .columna2{
+    display:none;
   }
   .contact{
    top: 20%;
-   margin-top: 30%;
+   margin-top: 10%;
    width: auto;
   }
 }
-/* @media (max-width:769px) {
-  .section5 {
-     height: 712px; 
-}
-  
-} */
+
 @media (max-width:541px) {
     .columna2{
       display: none;

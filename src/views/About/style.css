@@ -2,7 +2,6 @@
 
 .padre{
     display: flex;
-    /* flex-direction: column; */
     height: 600px;
 }
 .borde{
