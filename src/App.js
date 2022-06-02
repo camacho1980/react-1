@@ -10,7 +10,6 @@ import Footer from './views/Footer/footer.js';
 
 import './App.css';
 
-
 function App() {
  
   return (

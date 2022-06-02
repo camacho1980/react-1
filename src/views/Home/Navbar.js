@@ -1,9 +1,7 @@
 import "./style.css"
 function Navbar(){
 
-
-
-    return(
+  return(
      
       <nav class="navbar navbar-expand-lg navbar-light  navbarPadre  ">
         <div className="container" id="home">
@@ -13,7 +11,7 @@ function Navbar(){
             </button>
             <div class="collapse navbar-collapse   " id="navbarNav">
           
-        <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item ">
               <a class="nav-link  itemsNav" aria-current="page" href="#home">Home</a>
             </li>
@@ -30,12 +28,10 @@ function Navbar(){
               <a class="nav-link itemsNav" href="#contact">Contact</a>
             </li>
           </ul>
-        </div>
-
-               
-          </div>
+        </div>           
+      </div>
     </nav>
-    // <div></div>
+    
     
     )
 }
