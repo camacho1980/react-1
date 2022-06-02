@@ -38,7 +38,7 @@ function Contact(){
     }
       //Hago la validacion: con el length pregunto si cada campo no esta vacio, osea tiene un length.
       //con el signo de interrogacion le digo lo contrario, osea si estan vacios. y lo paso por props al boton con disabled.
-    const buttonDisabled = !(  userInput.email.length && userInput.phone.length && userInput.message.length && userInput.name.length > 2 && !isNaN(userInput.phone))
+    const buttonDisabled = !(  userInput.email.length && userInput.phone.length && userInput.message.length && userInput.name.length > 2 )
     
     return(
         <section className='section5' id='contact'>
