@@ -1,7 +1,7 @@
 .contenedorSection1{
     display: flex;
     flex-direction: column;
-    /* position: relative; */    
+     
 
 }
 
@@ -9,16 +9,20 @@
     border-bottom: 2px solid #E0752F;
     height: 98px;
     width: 100%;
- 
-    
-    
+    position: fixed;   
+    transition: 0.7s;
+    z-index: 10;
 }
+.header{
+    background-color: #E0752F;
+}
+
 .itemsNav{
     margin: 10px;
     flex-grow: 2;
     color: #FFFFFF;
     
-    /* text-shadow: 2px 0 0 #000 */
+    
 }
 
 .logo{
@@ -89,7 +93,7 @@ opacity: 1;
     letter-spacing: 0.22px;
     color: #FFFFFF;
     opacity: 1;
-    /* position: absolute; */
+    
 }
 
 
@@ -109,7 +113,6 @@ opacity: 1;
 .button1{
     width: 144px;
     height: 48px;
-    /* text-align: center; */
     font: normal normal medium 16px/21px Roboto;
     letter-spacing: 0.22px;
     color: #FFFFFF;

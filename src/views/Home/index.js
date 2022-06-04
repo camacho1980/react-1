@@ -8,7 +8,7 @@ function Landing(){
     
     return(
         
-        <section className="fondoImagen">   
+        <section className="fondoImagen" id="a">   
            
             <Navbar/>   
             <div className="container contenedorSection1">

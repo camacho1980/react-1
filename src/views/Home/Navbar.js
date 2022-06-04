@@ -1,9 +1,19 @@
 import "./style.css"
+import React,{useState} from "react"
 function Navbar(){
-
+//cambiar color navbar
+const [color,setColor] = useState(false)
+const changeColor = () => {
+  if (window.scrollY >= 90) {
+    setColor(true)
+  }else{
+    setColor(false)
+  }
+}
+window.addEventListener("scroll",changeColor)
   return(
-     
-      <nav class="navbar navbar-expand-lg navbar-light  navbarPadre  ">
+    
+      <nav className={color ? 'navbarPadre header navbar navbar-expand-lg navbar-light' : 'navbarPadre navbar navbar-expand-lg navbar-light'}>
         <div className="container" id="home">
                   <img className="logo " src="./assets/img/top-logo.png" ></img>
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +23,7 @@ function Navbar(){
           
           <ul class="navbar-nav ml-auto">
             <li class="nav-item ">
-              <a class="nav-link  itemsNav" aria-current="page" href="#home">Home</a>
+              <a class="nav-link  itemsNav" aria-current="page" href="#a">Home</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link itemsNav" href="#about">About</a>
